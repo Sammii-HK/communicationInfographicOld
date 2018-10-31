@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: "Helvetica", "sans-serif";
+}
+
+a {
+	font-size: 1.1rem;
+}
+
+.container {}
+
+
+.modal-overlay {
+visibility:hidden;
+}
+
+.modal-content {
+visibility:hidden;
+}
+
+.modal-overlay.active{
+visibility:visible;
+}
+
+.modal-content.active {
+visibility:visible;
+}
+
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.timeline-container {
+	max-height: 6000px;
+	height:  6000px;
+	max-width: 1366px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 1366px) {
+	.timeline-container {
+		height: 6000px;
+	}
+}
+
+.decade {
+	height: 100px;
+	justify-content: space-around;
+}
+
+.item {
+	justify-content: space-around;
+}
+
+.item-button {
+	width: 100px;
+	height: 100px;
+	min-width: 100px;
+	min-height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	border-radius: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #000000;
+	color: #fff;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+.date {
+	padding-top: 1px;
+	font-size: 0.9rem;
+}
+
+/*.four-forty {
+	margin-top: 3.33%
+}
+
+.four-fifty {
+	margin-top: 5%;
+}
+
+.four-sixfive  {
+	margin-top: 7.5%;
+}
+
+.four-ninefive  {
+	margin-top: 12.5%;
+}*/
+
+.x-zero {
+	margin-top: 50px;
+}
+
+.x-one {
+	margin-bottom: 40px;
+}
+
+.x-two {
+	margin-bottom: 30px;
+}
+
+.x-three {
+	margin-bottom: 20px;
+}
+
+.x-four {
+	margin-bottom: 10px;
+}
+
+.x-six {
+	margin-top: 10px;
+}
+
+.x-seven {
+	margin-top: 20px;
+}
+
+.x-eight {
+	margin-top: 30px;
+}
+
+.x-nine {
+	margin-top: 40px;
+}
+
