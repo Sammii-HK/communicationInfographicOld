@@ -139,19 +139,19 @@ a {
 }
 
 .x-one {
-	margin-bottom: 40px;
+	margin-top: -40px;
 }
 
 .x-two {
-	margin-bottom: 30px;
+	margin-top: -30px;
 }
 
 .x-three {
-	margin-bottom: 20px;
+	margin-top: -20px;
 }
 
 .x-four {
-	margin-bottom: 10px;
+	margin-top: -10px;
 }
 
 .x-six {
